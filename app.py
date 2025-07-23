@@ -13,7 +13,7 @@ INDEX_DIR = "data"
 CHUNK_SIZE = 500
 CHUNK_OVERLAP = 50
 EMBED_MODEL = "nomic-embed-text"
-LLM_MODEL = "mistral"  # or llama2, gemma, etc.
+LLM_MODEL = "gemma:7b"  # or llama2, gemma, etc.
 
 def load_and_chunk_pdfs(pdf_dir):
     print("📥 Loading and chunking PDFs...")
