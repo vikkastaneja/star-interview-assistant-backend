@@ -1,0 +1,10 @@
+langchain
+faiss-cpu
+PyPDF2
+tqdm
+ollama
+langchain-community
+pypdf
+langchain-ollama
+fastapi
+uvicorn
